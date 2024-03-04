@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V:RP | PCU</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <form id="index" type="post" action="/">
+        <fieldset>
+
+            <img id="logo" src="images/logo.png">
+
+        <legend>Iniciar sesión</legend>
+
+        <div>
+        <input 
+            type="email" 
+            name="email" 
+            id="email" 
+            placeholder="Correo electronico" 
+            required
+        >
+        </div>
+
+        <div>
+        <input 
+            type="password" 
+            name="password"
+            id="password" 
+            placeholder="Contraseña" 
+            required
+        >
+        </div>
+
+        <button id="entrar">
+            Entrar
+        </button>
+
+        <button id="crear" type="button" onclick="window.location.href='/register.html'">
+            Crear cuenta
+        </button>
+
+        <button id="recuperar" type="button" onclick="window.location.href='/recover.html'">
+            Recuperar cuenta
+        </button>
+
+
+        </fieldset>
+    </form>
+
+    <footer>
+        <p>Copyright © 2024 Valley Roleplay</p>
+    </footer>
+</body>
+</html>

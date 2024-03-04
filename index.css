@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'fuente';
+    src: url('style/Genera-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fuente2';
+    src: url('style/Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+    background-image: url('images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, form {
+    font-family: fuente;
+    text-align: center;
+    color: white;
+}
+
+button, input::placeholder {
+    font-family: fuente2;
+}
+
+fieldset {
+    background-color: #1f1f20;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    border-radius: 10px;
+}
+
+#email, #password {
+    margin: 4px;
+    border-radius: 6px;
+}
+
+#crear, #entrar, #recuperar {
+    margin-top: 4px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border-radius: 6px;
+}
+
+legend {
+    color: white;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+}
